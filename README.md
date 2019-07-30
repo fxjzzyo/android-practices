@@ -22,3 +22,12 @@ This is a repository for android study practices.
 ### 参考文章：
 
 > [Android MVP设计模式实例详解](https://blog.csdn.net/u012721519/article/details/82977134)
+
+## 3. recyclerview下拉刷新与上拉加载(支持网格布局)
+
+### 代码实例
+[recyclerviewrefreshload](https://github.com/fxjzzyo/android-practices/tree/master/recyclerviewrefreshload)
+
+
+### 参考文章：
+> 抱歉我忘了在哪看的了...>_<（支持网格布局是我新加的）
