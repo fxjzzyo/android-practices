@@ -31,3 +31,23 @@ This is a repository for android study practices.
 
 ### 参考文章：
 > 抱歉我忘了在哪看的了...>_<（支持网格布局是我新加的）
+
+## 4. 一个GIF图片压缩算法的实现例子(Kotlin)
+
+
+
+本来想用阿里的那个**simpleimage**库，可是**依赖包都下好了**，发现android平台无法引用java中的awt模块。无法用，放弃了。
+只能另找它法。
+
+最后找到方法：使用glide对gif图片编码，解码，从而实现压缩。工具类：ImageCompress.kt
+
+  **需要注意的是：** 经本人测试，压缩限制的最大小不能太小，否则会很慢。
+  
+### 代码实例
+[simpleimagetest](https://github.com/fxjzzyo/android-practices/tree/master/simpleimagetest)
+
+  
+  参考文章：
+  > https://www.jianshu.com/p/1a0a58cf6fab
+  
+  > https://github.com/Nemocdz/ImageCompress-Android
