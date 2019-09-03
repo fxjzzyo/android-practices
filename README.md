@@ -51,3 +51,20 @@ This is a repository for android study practices.
   > https://www.jianshu.com/p/1a0a58cf6fab
   
   > https://github.com/Nemocdz/ImageCompress-Android
+  
+ ## 5. AIDL练习
+ 
+ 来源于《Android开发艺术探索》第二章IPC机制的相关实践
+ 
+ 包含了
+ - 一个基本的AIDL实现
+ - messenger通信实例
+ - content_provider通信实例
+ - sorcket通信实例
+ - binder连接池实例
+ 
+ 运行每个实例只需要将对应的activity设为启动activity即可
+ 
+### 代码实例
+
+ [aidl_test](https://github.com/fxjzzyo/android-practices/tree/master/aidl_test)

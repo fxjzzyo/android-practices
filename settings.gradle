@@ -1,1 +1,1 @@
-include ':app', ':mvptest', ':recyclerviewrefreshload', ':simpleimagetest'
+include ':app', ':mvptest', ':recyclerviewrefreshload', ':simpleimagetest', ':aidl_test'
