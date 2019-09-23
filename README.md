@@ -68,3 +68,13 @@ This is a repository for android study practices.
 ### 代码实例
 
  [aidl_test](https://github.com/fxjzzyo/android-practices/tree/master/aidl_test)
+
+ ## 6. View练习
+ 
+ 来源于《Android开发艺术探索》中一些关于view，drawable，动画的一些零碎练习。
+ 整理的不好，不实用，记录一下而已，木有撒意义。
+ 
+ 
+### 代码实例
+
+ [view_test](https://github.com/fxjzzyo/android-practices/tree/master/view_test)

@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/mvptest" />
             <option value="$PROJECT_DIR$/recyclerviewrefreshload" />
             <option value="$PROJECT_DIR$/simpleimagetest" />
+            <option value="$PROJECT_DIR$/view_test" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

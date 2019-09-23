@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fxjzzyo.view_test.DrawableActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/lay_list_bg"
+            android:textColor="#000" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/insert_drawable"
+            android:text="你好" />
+
+        <ImageView
+            android:id="@+id/iv_img1"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:src="@drawable/clip_drawable" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/btn_2"
+            />
+    </LinearLayout>
+</ScrollView>
