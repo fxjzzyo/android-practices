@@ -78,3 +78,12 @@ This is a repository for android study practices.
 ### 代码实例
 
  [view_test](https://github.com/fxjzzyo/android-practices/tree/master/view_test)
+ 
+ ## 7. openGL 2.0 在Android上的入门小练习
+ 
+ 来源于《OpenGL ES应用开发实践指南Android卷》中的第一个实例程序，就是简单的使用GLSurfaceView显示一个红色画布
+ 
+ 
+### 代码实例
+
+ [opengl_test](https://github.com/fxjzzyo/android-practices/tree/master/opengl_test)
