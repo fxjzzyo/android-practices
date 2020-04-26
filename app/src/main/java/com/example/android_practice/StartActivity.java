@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.android_practice.activity.PaletteActivity;
+import com.example.android_practice.activity.RippleBtnActivity;
+
 public class StartActivity extends AppCompatActivity {
 
     @Override
@@ -32,4 +35,14 @@ public class StartActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PaletteActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 跳转到水波按钮练习
+     * @param view
+     */
+    public void toRippleBtnPractice(View view) {
+        Intent intent = new Intent(this, RippleBtnActivity.class);
+        startActivity(intent);
+    }
+
 }

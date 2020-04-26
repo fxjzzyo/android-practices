@@ -1,4 +1,4 @@
-package com.example.android_practice;
+package com.example.android_practice.activity;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +11,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.android_practice.R;
 
 public class PaletteActivity extends AppCompatActivity {
 

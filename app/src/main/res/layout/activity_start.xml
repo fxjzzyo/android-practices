@@ -23,6 +23,13 @@
         android:onClick="toPalettePractice"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="水波按钮练习"
+        android:onClick="toRippleBtnPractice"
+        />
 
 
 
