@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.android_practice.activity.PaletteActivity;
+import com.example.android_practice.activity.PropertyAnimationSampleActivity;
 import com.example.android_practice.activity.RippleBtnActivity;
 
 public class StartActivity extends AppCompatActivity {
@@ -45,4 +46,12 @@ public class StartActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * 跳转到属性动画案例练习
+     * @param view
+     */
+    public void toPropertyAnimationSamplePractice(View view) {
+        Intent intent = new Intent(this, PropertyAnimationSampleActivity.class);
+        startActivity(intent);
+    }
 }

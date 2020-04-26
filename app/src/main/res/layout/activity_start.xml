@@ -30,7 +30,13 @@
         android:text="水波按钮练习"
         android:onClick="toRippleBtnPractice"
         />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="属性动画案例练习"
+        android:onClick="toPropertyAnimationSamplePractice"
+        />
 
 
 
