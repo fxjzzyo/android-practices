@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.PropertyAnimationSampleActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        <activity android:name=".activity.Transition2Activity"
+            android:theme="@style/AppNoActionBarTheme"
             ></activity>
+        <activity android:name=".activity.Transition1Activity"
+            android:theme="@style/AppNoActionBarTheme"
+            />
+        <activity
+            android:name=".activity.PropertyAnimationSampleActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".activity.RippleBtnActivity" />
         <activity android:name=".activity.PaletteActivity" />
         <activity android:name=".StartActivity">

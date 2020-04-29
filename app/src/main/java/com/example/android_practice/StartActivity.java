@@ -9,6 +9,7 @@ import android.view.View;
 import com.example.android_practice.activity.PaletteActivity;
 import com.example.android_practice.activity.PropertyAnimationSampleActivity;
 import com.example.android_practice.activity.RippleBtnActivity;
+import com.example.android_practice.activity.Transition1Activity;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -52,6 +53,15 @@ public class StartActivity extends AppCompatActivity {
      */
     public void toPropertyAnimationSamplePractice(View view) {
         Intent intent = new Intent(this, PropertyAnimationSampleActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 跳转到activity转场练习
+     * @param view
+     */
+    public void toTransitionActivityPractice(View view) {
+        Intent intent = new Intent(this, Transition1Activity.class);
         startActivity(intent);
     }
 }

@@ -26,6 +26,7 @@ public class PaletteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_palette);
+        setTitle("PaletteActivity");
 
         ivImage = findViewById(R.id.iv_image);
         tv1 = findViewById(R.id.tv_1);

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Transition1Activity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Transition1Activity"
+        app:titleTextColor="#ffffff"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="@android:drawable/ic_menu_revert"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
+    <Button
+        android:id="@+id/btn_jump"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="跳转"
+        android:transitionName="transBtn"
+        android:onClick="jumpTo2Activity"
+      />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:transitionName="transImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img3" />
+
+</LinearLayout>

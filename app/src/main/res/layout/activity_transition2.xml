@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Transition2Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Transition2Activity"
+        app:titleTextColor="#ffffff"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:navigationIcon="@android:drawable/ic_menu_revert"
+        android:background="@color/colorPrimary"
+        />
+
+
+    <Button
+        android:id="@+id/btn_jump"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="返回"
+        android:layout_gravity="right"
+        android:transitionName="transBtn"
+        android:onClick="back"
+        />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transitionName="transImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img3" />
+
+</LinearLayout>
