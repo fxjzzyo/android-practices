@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.android_practice.activity.CustomCircleActivity;
+import com.example.android_practice.activity.EventDispatchActivity;
 import com.example.android_practice.activity.PaletteActivity;
 import com.example.android_practice.activity.PropertyAnimationSampleActivity;
 import com.example.android_practice.activity.RippleBtnActivity;
@@ -62,6 +64,27 @@ public class StartActivity extends AppCompatActivity {
      */
     public void toTransitionActivityPractice(View view) {
         Intent intent = new Intent(this, Transition1Activity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 跳转到View事件分发activity练习
+     * @param view
+     */
+    public void toEventDispatchActivityPractice(View view) {
+        Intent intent = new Intent(this, EventDispatchActivity.class);
+        startActivity(intent);
+    }
+
+
+
+
+    /**
+     *
+     * @param view
+     */
+    public void toCustomCirclePractice(View view) {
+        Intent intent = new Intent(this, CustomCircleActivity.class);
         startActivity(intent);
     }
 }
