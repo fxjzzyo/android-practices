@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.android_practice.activity.CustomCircleActivity;
 import com.example.android_practice.activity.CustomSlidMenuActivity;
+import com.example.android_practice.activity.CustomSlideItemActivity;
 import com.example.android_practice.activity.EventDispatchActivity;
 import com.example.android_practice.activity.PaletteActivity;
 import com.example.android_practice.activity.ParallaxSplashActivity;
@@ -106,4 +107,15 @@ public class StartActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CustomSlidMenuActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 跳转到自定义侧滑条目练习
+     * @param view
+     */
+    public void toCustomSlidItemActivity(View view) {
+        Intent intent = new Intent(this, CustomSlideItemActivity.class);
+        startActivity(intent);
+    }
+
+
 }
