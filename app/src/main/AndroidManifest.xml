@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< Updated upstream
+
         <activity android:name=".activity.CustomCircleActivity"></activity>
         <activity android:name=".activity.EventDispatchActivity" />
-=======
+
         <activity android:name=".activity.ParallaxSplashActivity"></activity>
->>>>>>> Stashed changes
+
         <activity
             android:name=".activity.Transition2Activity"
             android:theme="@style/AppNoActionBarTheme" />

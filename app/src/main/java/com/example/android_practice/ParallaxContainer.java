@@ -1,12 +1,10 @@
 package com.example.android_practice;
 
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
@@ -46,6 +44,7 @@ public class ParallaxContainer extends FrameLayout implements ViewPager.OnPageCh
             bundle.putInt("layoutId", ids[i]);
             bundle.putInt("index", i);
             p.setArguments(bundle);
+            mParallaxFragments.add(p);
         }
 
         // 实例化适配器

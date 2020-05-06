@@ -60,26 +60,18 @@ public class ParallaxLayoutInflater extends LayoutInflater {
         }
 
         private void setViewTag(View view, Context context, AttributeSet attrs) {
-            // 所有自定义属性
-            int attrIds[] = {
-              R.attr.a_in,
-              R.attr.a_out,
-              R.attr.x_in,
-              R.attr.x_out,
-              R.attr.y_in,
-              R.attr.y_out
-            };
-            // 获取
-            TypedArray typedArray = context.obtainStyledAttributes(attrs, attrIds);
+
+            // 获取属性
+            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.ParallaxContainer);
             if (typedArray != null && typedArray.length() > 0) {
                 ParallaxViewTag parallaxViewTag = new ParallaxViewTag();
 
-                parallaxViewTag.alphaIn = typedArray.getFloat(0,0f);
-                parallaxViewTag.alphaOut = typedArray.getFloat(1,0f);
-                parallaxViewTag.xIn = typedArray.getFloat(2, 0f);
-                parallaxViewTag.xOut = typedArray.getFloat(3, 0f);
-                parallaxViewTag.yIn = typedArray.getFloat(4, 0f);
-                parallaxViewTag.yOut = typedArray.getFloat(5, 0f);
+                parallaxViewTag.alphaIn = typedArray.getFloat(R.styleable.ParallaxContainer_a_in,0f);
+                parallaxViewTag.alphaOut = typedArray.getFloat(R.styleable.ParallaxContainer_a_out,0f);
+                parallaxViewTag.xIn = typedArray.getFloat(R.styleable.ParallaxContainer_x_in, 0f);
+                parallaxViewTag.xOut = typedArray.getFloat(R.styleable.ParallaxContainer_x_out, 0f);
+                parallaxViewTag.yIn = typedArray.getFloat(R.styleable.ParallaxContainer_y_in, 0f);
+                parallaxViewTag.yOut = typedArray.getFloat(R.styleable.ParallaxContainer_y_out, 0f);
 
                 view.setTag(R.id.parallax_view_tag,parallaxViewTag);
             }
