@@ -9,6 +9,7 @@ import android.view.View;
 import com.example.android_practice.activity.CustomCircleActivity;
 import com.example.android_practice.activity.EventDispatchActivity;
 import com.example.android_practice.activity.PaletteActivity;
+import com.example.android_practice.activity.ParallaxSplashActivity;
 import com.example.android_practice.activity.PropertyAnimationSampleActivity;
 import com.example.android_practice.activity.RippleBtnActivity;
 import com.example.android_practice.activity.Transition1Activity;
@@ -67,6 +68,7 @@ public class StartActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
     /**
      * 跳转到View事件分发activity练习
      * @param view
@@ -77,14 +79,22 @@ public class StartActivity extends AppCompatActivity {
     }
 
 
-
-
     /**
      *
      * @param view
      */
     public void toCustomCirclePractice(View view) {
         Intent intent = new Intent(this, CustomCircleActivity.class);
+
+        startActivity(intent);
+    }
+    /**
+     * 跳转到ParallaxSplashActivity视差动画框架练习
+     * @param view
+     */
+    public void toParallaxSplashActivity(View view) {
+        Intent intent = new Intent(this, ParallaxSplashActivity.class);
+
         startActivity(intent);
     }
 }

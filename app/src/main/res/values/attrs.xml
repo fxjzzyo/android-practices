@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< Updated upstream
     
     <declare-styleable name="CustomCircle">
         
@@ -9,4 +10,15 @@
         <attr name="circle_y" format="dimension" />
     </declare-styleable>
     
+=======
+    <attr name="a_in" format="float" />
+    <attr name="a_out" format="float" />
+    <attr name="x_in" format="float" />
+    <attr name="x_out" format="float" />
+    <attr name="y_in" format="float" />
+    <attr name="y_out" format="float" />
+
+
+
+>>>>>>> Stashed changes
 </resources>

@@ -45,6 +45,7 @@
             android:layout_margin="10dp"
             android:onClick="toTransitionActivityPractice"
             android:text="activity转场练习" />
+
         <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,11 +53,20 @@
         android:onClick="toEventDispatchActivityPractice"
         android:text="View事件分发练习" />
 
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:onClick="toCustomCirclePractice"
             android:text="自定义圆环" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="toParallaxSplashActivity"
+            android:text="视差动画练习" />
+
     </LinearLayout>
 </ScrollView>
