@@ -9,12 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".activity.CustomCircleActivity"></activity>
+        <activity android:name=".activity.CustomSlidMenuActivity"></activity>
+        <activity android:name=".activity.CustomCircleActivity" />
         <activity android:name=".activity.EventDispatchActivity" />
-
-        <activity android:name=".activity.ParallaxSplashActivity"></activity>
-
+        <activity android:name=".activity.ParallaxSplashActivity" />
         <activity
             android:name=".activity.Transition2Activity"
             android:theme="@style/AppNoActionBarTheme" />

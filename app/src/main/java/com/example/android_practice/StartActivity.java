@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.android_practice.activity.CustomCircleActivity;
+import com.example.android_practice.activity.CustomSlidMenuActivity;
 import com.example.android_practice.activity.EventDispatchActivity;
 import com.example.android_practice.activity.PaletteActivity;
 import com.example.android_practice.activity.ParallaxSplashActivity;
@@ -80,7 +81,7 @@ public class StartActivity extends AppCompatActivity {
 
 
     /**
-     *
+     *跳转到自定义圆环进度条练习
      * @param view
      */
     public void toCustomCirclePractice(View view) {
@@ -94,7 +95,15 @@ public class StartActivity extends AppCompatActivity {
      */
     public void toParallaxSplashActivity(View view) {
         Intent intent = new Intent(this, ParallaxSplashActivity.class);
+        startActivity(intent);
+    }
 
+    /**
+     * 跳转到自定义侧滑菜单练习
+     * @param view
+     */
+    public void toCustomSlidMenuActivity(View view) {
+        Intent intent = new Intent(this, CustomSlidMenuActivity.class);
         startActivity(intent);
     }
 }
