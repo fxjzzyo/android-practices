@@ -10,6 +10,7 @@ import com.example.android_practice.activity.CustomCircleActivity;
 import com.example.android_practice.activity.CustomSlidMenuActivity;
 import com.example.android_practice.activity.CustomSlideItemActivity;
 import com.example.android_practice.activity.EventDispatchActivity;
+import com.example.android_practice.activity.FilterTestActivity;
 import com.example.android_practice.activity.PaletteActivity;
 import com.example.android_practice.activity.ParallaxSplashActivity;
 import com.example.android_practice.activity.PropertyAnimationSampleActivity;
@@ -114,6 +115,15 @@ public class StartActivity extends AppCompatActivity {
      */
     public void toCustomSlidItemActivity(View view) {
         Intent intent = new Intent(this, CustomSlideItemActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 跳转到滤镜练习
+     * @param view
+     */
+    public void toFilterActivity(View view) {
+        Intent intent = new Intent(this, FilterTestActivity.class);
         startActivity(intent);
     }
 

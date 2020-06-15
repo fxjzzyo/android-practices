@@ -80,5 +80,11 @@
             android:layout_margin="10dp"
             android:onClick="toCustomSlidItemActivity"
             android:text="自定义测化菜单练习" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="toFilterActivity"
+            android:text="滤镜练习" />
     </LinearLayout>
 </ScrollView>
