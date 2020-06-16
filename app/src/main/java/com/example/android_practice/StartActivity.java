@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.android_practice.activity.BeisaierWaveActivity;
 import com.example.android_practice.activity.CustomCircleActivity;
 import com.example.android_practice.activity.CustomSlidMenuActivity;
 import com.example.android_practice.activity.CustomSlideItemActivity;
@@ -124,6 +125,16 @@ public class StartActivity extends AppCompatActivity {
      */
     public void toFilterActivity(View view) {
         Intent intent = new Intent(this, FilterTestActivity.class);
+        startActivity(intent);
+    }
+
+
+    /**
+     * 跳转到贝塞尔曲线练习
+     * @param view
+     */
+    public void toBeisaierWaveActivity(View view) {
+        Intent intent = new Intent(this, BeisaierWaveActivity.class);
         startActivity(intent);
     }
 
